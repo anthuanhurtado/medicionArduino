@@ -16,17 +16,6 @@ void setup() {
 }
 
 void loop() {
- // digitalWrite(7,HIGH);
-  //delay(1000);
-  ///digitalWrite(9,HIGH);
-  ///delay(1000);
-  //digitalWrite(12,HIGH);
-  //delay(1000);
-  //digitalWrite(7, LOW);
-  //digitalWrite(9, LOW);
-  //digitalWrite(12, LOW);
-  //delay(1000);
-  
   delay(1000);                      // Wait 50ms between pings (about 20 pings/sec). 29ms should be the shortest delay between pings.
   unsigned int uS = sonar.ping(); // Send ping, get ping time in microseconds (uS).
   Serial.println("");
